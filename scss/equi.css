@@ -1,0 +1,276 @@
+@media (min-width: 0px) and (max-width: 567px) {
+  #header .parents {
+    display: none;
+  }
+  #header .tel {
+    position: relative;
+  }
+  #header .tel div .logoo {
+    margin-top: 10px;
+  }
+  #header .tel div .logoo .navico i {
+    font-size: 20px;
+  }
+  #header .tel div .logoo .logo1 {
+    width: 150px;
+  }
+  #header .tel div .ul {
+    width: 103%;
+    position: absolute;
+    top: 100%;
+    left: -103%;
+    transition: 0.5s;
+  }
+  #header .tel div .ul.active {
+    left: -4%;
+  }
+  #header .tel div .ul .ul1 li {
+    padding: 10px 0;
+  }
+  #header .tel div .ul .ul1 li a {
+    width: 100%;
+    border-bottom: 2px solid rgb(224, 223, 223);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1b287e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #header .tel div .ul .ul2 li a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1b287e;
+    text-decoration: none;
+    display: inline-block;
+  }
+  #header .tel div .ul .ul3 li a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1b287e;
+    padding: 10px 0;
+    text-decoration: none;
+    display: inline-block;
+  }
+  #header .tel div .ul .ul4 li a {
+    font-size: 1rem;
+    padding-top: 10px;
+    color: #384281;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+@media (min-width: 567px) and (max-width: 768px) {
+  #header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(245, 245, 245, 0.973);
+  }
+  #header .tel {
+    display: none;
+  }
+  #header hr {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -25px;
+  }
+  #header .parents {
+    margin: auto;
+    width: 95%;
+  }
+  #header .parents .boxes .boxes1 ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2034B4;
+    display: inline-block;
+    padding: 20px 6px;
+    text-decoration: none;
+  }
+  #header .parents .boxes .boxes2 a {
+    font-size: 13px;
+    color: #152170;
+    display: inline-block;
+    padding: 20px 5px;
+    text-decoration: none;
+  }
+  #header .parents .boxes .boxes2 ul {
+    padding: 0 10px;
+    z-index: 1;
+  }
+  #header .parents .boxes .boxes2 ul li {
+    position: relative;
+  }
+  #header .parents .boxes .boxes2 ul li a {
+    display: block;
+    padding: 20px 0;
+  }
+  #header .parents .boxes .boxes2 ul li a i {
+    margin-left: 5px;
+  }
+  #header .parents .boxes .boxes2 ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(45px);
+  }
+  #header .parents .boxes .boxes2 ul li ul {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    left: -35%;
+    transition: 0.5s;
+    top: 0%;
+    visibility: hidden;
+    width: 55px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transform: translateY(0);
+  }
+  #header .parents .boxes .boxes2 ul li ul li {
+    list-style: none;
+    text-align: center;
+  }
+  #header .parents .boxes .boxes2 ul li ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 2px 0;
+    margin: 0;
+    transition: 0.3s;
+  }
+  #header .parents .boxes .boxes2 ul li ul li a:hover {
+    color: orange;
+  }
+  #header .parents .box1 {
+    position: relative;
+    bottom: 15px;
+  }
+  #header .parents .box1 .logo {
+    width: 130px;
+  }
+  #header .parents .box1 div ul li {
+    padding: 0 5px;
+  }
+  #header .parents .box1 div ul li:nth-child(1) a {
+    border-bottom: 2px solid #2034B4;
+  }
+  #header .parents .box1 div ul li a {
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: #2034B4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+@media (min-width: 768px) {
+  #header {
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(245, 245, 245, 0.973);
+  }
+  #header .tel {
+    display: none;
+  }
+  #header hr {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -25px;
+  }
+  #header .parents {
+    margin: auto;
+    width: 95%;
+  }
+  #header .parents .boxes .boxes1 ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2034B4;
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
+  #header .parents .boxes .boxes2 a {
+    font-size: 17px;
+    color: #152170;
+    display: inline-block;
+    padding: 20px 8px;
+    text-decoration: none;
+  }
+  #header .parents .boxes .boxes2 ul {
+    padding: 0 15px;
+    z-index: 1;
+  }
+  #header .parents .boxes .boxes2 ul li {
+    position: relative;
+  }
+  #header .parents .boxes .boxes2 ul li a {
+    display: block;
+    padding: 20px 0;
+  }
+  #header .parents .boxes .boxes2 ul li a i {
+    margin-left: 5px;
+  }
+  #header .parents .boxes .boxes2 ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(45px);
+  }
+  #header .parents .boxes .boxes2 ul li ul {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    left: -35%;
+    transition: 0.5s;
+    top: 0%;
+    visibility: hidden;
+    width: 65px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transform: translateY(0);
+  }
+  #header .parents .boxes .boxes2 ul li ul li {
+    list-style: none;
+    text-align: center;
+  }
+  #header .parents .boxes .boxes2 ul li ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 2px 0;
+    margin: 0;
+    transition: 0.3s;
+  }
+  #header .parents .boxes .boxes2 ul li ul li a:hover {
+    color: orange;
+  }
+  #header .parents .box1 {
+    position: relative;
+    bottom: 15px;
+  }
+  #header .parents .box1 .logo {
+    width: 150px;
+  }
+  #header .parents .box1 div ul li {
+    padding: 0 25px;
+  }
+  #header .parents .box1 div ul li:nth-child(1) a {
+    border-bottom: 2px solid #2034B4;
+  }
+  #header .parents .box1 div ul li a {
+    padding: 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: #2034B4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}/*# sourceMappingURL=equi.css.map */

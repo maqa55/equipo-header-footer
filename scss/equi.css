@@ -7,21 +7,20 @@
   }
   #header .tel {
     position: fixed;
-    z-index: 999;
     width: 100%;
+    z-index: 999;
     background-color: rgba(255, 255, 255, 0);
     transition: background-color 0.5s;
   }
   #header .tel div .logoo {
-    margin-top: 10px;
     transition: background-color 0.5s;
   }
   #header .tel div .logoo .navico i {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
   }
   #header .tel div .logoo .logo1 {
-    width: 150px;
+    width: 120px;
   }
   #header .tel div .ul {
     width: 104%;
@@ -746,5 +745,597 @@
   #footer .finish div div a {
     color: white;
     font-size: 14px;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  #faqs {
+    overflow: hidden;
+  }
+  #faqs .minifaqs .box {
+    position: relative;
+  }
+  #faqs .minifaqs .box h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .minifaqs .box div {
+    position: relative;
+  }
+  #faqs .minifaqs .box div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  #faqs .box2 {
+    background-color: whitesmoke;
+    height: 60px;
+  }
+  #faqs .box2 div div {
+    padding: 20px 0;
+    margin: 0 10px 0;
+  }
+  #faqs .box2 div div p {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+  #faqs .box2 div div .p {
+    color: gray;
+  }
+  #faqs .faqsmini2 .box3 {
+    margin: 0 20px;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div {
+    border: none;
+    padding: 5px 0;
+    transition: 1s;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div .accordion-button {
+    font-weight: 600;
+    font-size: 11px;
+  }
+  #faqs .faqsmini2 .box3 .text h1 {
+    font-size: 1.3rem;
+    font-family: "Mulish";
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #faqs .faqsmini2 .box3 .text p {
+    display: block;
+    color: grey;
+    font-family: "Mulish";
+  }
+  #faqs .faqsmini3 {
+    padding: 4rem 0 7rem;
+  }
+  #faqs .faqsmini3 .box4 {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .h1 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+  }
+  #faqs .faqsmini3 .box4 .h1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .faqsmini3 .box4 .textbox {
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input {
+    position: absolute;
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%);
+  }
+  #faqs .faqsmini3 .box4 .textbox .input input {
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 7px;
+    font-size: 13px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    padding-left: 25px;
+    border-radius: 5px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 3px 20px;
+    background-color: #062c5e;
+    transition: 0.5s;
+    margin: 10px 0 0 76%;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a:hover {
+    background-color: #073A7D;
+  }
+  #faqs .faqsmini3 .box4 .logo {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 567px) and (max-width: 808px) {
+  #faqs {
+    overflow: hidden;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(1) a {
+    border: none;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(5) a {
+    border-bottom: 2px solid #2034B4;
+  }
+  #faqs .minifaqs .box {
+    position: relative;
+  }
+  #faqs .minifaqs .box h1 {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .minifaqs .box div {
+    position: relative;
+  }
+  #faqs .minifaqs .box div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  #faqs .box2 {
+    background-color: whitesmoke;
+    height: 60px;
+  }
+  #faqs .box2 div div {
+    padding: 20px 0;
+    margin: 0 35px 0;
+  }
+  #faqs .box2 div div p {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+  #faqs .box2 div div .p {
+    color: gray;
+  }
+  #faqs .faqsmini2 .box3 {
+    margin: 0 30px;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div {
+    border: none;
+    padding: 10px 0;
+    transition: 1s;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div .accordion-button {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  #faqs .faqsmini2 .box3 .text h1 {
+    font-size: 2rem;
+    font-family: "Mulish";
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #faqs .faqsmini2 .box3 .text p {
+    display: block;
+    color: grey;
+    font-family: "Mulish";
+  }
+  #faqs .faqsmini3 {
+    padding: 4rem 0 7rem;
+  }
+  #faqs .faqsmini3 .box4 {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .h1 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  #faqs .faqsmini3 .box4 .h1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .faqsmini3 .box4 .textbox {
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input {
+    position: absolute;
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%);
+  }
+  #faqs .faqsmini3 .box4 .textbox .input input {
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 7px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 70px;
+    padding-left: 25px;
+    border-radius: 5px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 3px 23px;
+    background-color: #062c5e;
+    transition: 0.5s;
+    margin: 10px 0 0 86%;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a:hover {
+    background-color: #073A7D;
+  }
+  #faqs .faqsmini3 .box4 .logo {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 808px) and (max-width: 992px) {
+  #faqs {
+    overflow: hidden;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(1) a {
+    border: none;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(5) a {
+    border-bottom: 2px solid #2034B4;
+  }
+  #faqs .minifaqs .box {
+    position: relative;
+  }
+  #faqs .minifaqs .box h1 {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .minifaqs .box div {
+    position: relative;
+  }
+  #faqs .minifaqs .box div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  #faqs .box2 {
+    background-color: whitesmoke;
+    height: 60px;
+  }
+  #faqs .box2 div div {
+    padding: 20px 0;
+    margin: 0 35px 0;
+  }
+  #faqs .box2 div div p {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+  #faqs .box2 div div .p {
+    color: gray;
+  }
+  #faqs .faqsmini2 .box3 {
+    margin: 0 30px;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div {
+    border: none;
+    padding: 10px 0;
+    transition: 1s;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div .accordion-button {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  #faqs .faqsmini2 .box3 .text h1 {
+    font-size: 2rem;
+    font-family: "Mulish";
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #faqs .faqsmini2 .box3 .text p {
+    display: block;
+    color: grey;
+    font-family: "Mulish";
+  }
+  #faqs .faqsmini3 {
+    padding: 4rem 0 7rem;
+  }
+  #faqs .faqsmini3 .box4 {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  #faqs .faqsmini3 .box4 .h1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .faqsmini3 .box4 .textbox {
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input {
+    position: absolute;
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%);
+  }
+  #faqs .faqsmini3 .box4 .textbox .input input {
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 7px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 80px;
+    padding-left: 25px;
+    border-radius: 5px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 3px 23px;
+    background-color: #062c5e;
+    transition: 0.5s;
+    margin: 10px 0 0 86%;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a:hover {
+    background-color: #073A7D;
+  }
+  #faqs .faqsmini3 .box4 .logo {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 992px) {
+  #faqs {
+    overflow: hidden;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(1) a {
+    border: none;
+  }
+  #faqs #header .parents .box1 div ul li:nth-child(5) a {
+    border-bottom: 2px solid #2034B4;
+  }
+  #faqs .minifaqs .box {
+    position: relative;
+  }
+  #faqs .minifaqs .box h1 {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3.2rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .minifaqs .box div {
+    position: relative;
+  }
+  #faqs .minifaqs .box div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  #faqs .box2 {
+    background-color: whitesmoke;
+    height: 60px;
+  }
+  #faqs .box2 div div {
+    padding: 20px 0;
+    margin: 0 35px 0;
+  }
+  #faqs .box2 div div p {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  #faqs .box2 div div .p {
+    color: gray;
+  }
+  #faqs .faqsmini2 .box3 {
+    margin: 0 45px;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div {
+    border: none;
+    padding: 15px 0;
+    transition: 1s;
+  }
+  #faqs .faqsmini2 .box3 #accordionExample div .accordion-button {
+    font-weight: 600;
+    font-size: 17px;
+  }
+  #faqs .faqsmini2 .box3 .text {
+    padding: 25px 0;
+  }
+  #faqs .faqsmini2 .box3 .text h1 {
+    font-size: 2.5rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .faqsmini2 .box3 .text p {
+    margin-top: 25px;
+    color: grey;
+    font-family: "Mulish";
+  }
+  #faqs .faqsmini3 {
+    padding: 4rem 0 7rem;
+  }
+  #faqs .faqsmini3 .box4 {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .h1 {
+    position: absolute;
+    top: 9%;
+    left: 20%;
+  }
+  #faqs .faqsmini3 .box4 .h1 h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Mulish";
+    font-weight: bold;
+  }
+  #faqs .faqsmini3 .box4 .textbox {
+    top: 28%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input {
+    position: absolute;
+    left: 50%;
+    width: 43%;
+    transform: translateX(-50%);
+  }
+  #faqs .faqsmini3 .box4 .textbox .input input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 150px;
+    padding-left: 25px;
+    border-radius: 5px;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 40px;
+    background-color: #062c5e;
+    transition: 0.5s;
+    margin: 30px 0 0 80%;
+  }
+  #faqs .faqsmini3 .box4 .textbox .input a:hover {
+    background-color: #073A7D;
+  }
+  #faqs .faqsmini3 .box4 .logo {
+    position: relative;
+  }
+  #faqs .faqsmini3 .box4 .logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }/*# sourceMappingURL=equi.css.map */

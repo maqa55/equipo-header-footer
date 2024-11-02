@@ -1,0 +1,813 @@
+@media(min-width:0px) and (max-width:567px) {
+    #faqs {
+        overflow: hidden;
+
+        .minifaqs {
+            .box {
+                position: relative;
+
+                h1 {
+                    position: absolute;
+                    top: 50%;
+                    left: 20px;
+                    transform: translateY(-50%);
+                    color: white;
+                    font-size: 1rem;
+                    font-family: "Mulish";
+                    font-weight: bold;
+                }
+
+
+                div {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.459);
+                    }
+                }
+            }
+
+        }
+
+        .box2 {
+            background-color: whitesmoke;
+            height: 60px;
+
+            div {
+                div {
+                    padding: 20px 0;
+                    margin: 0 10px 0;
+
+                    p {
+                        display: inline-block;
+                        padding: 0 10px;
+                        font-size: 10px;
+                    }
+
+                    .p {
+                        color: gray;
+                    }
+                }
+
+            }
+        }
+
+        .faqsmini2 {
+            .box3 {
+                margin: 0 20px;
+
+                #accordionExample {
+
+                    div {
+                        border: none;
+                        padding: 5px 0;
+                        transition: 1s;
+
+                        .accordion-button {
+                            font-weight: 600;
+                            font-size: 11px;
+                        }
+                    }
+                }
+
+                .text {
+
+                    h1 {
+                        font-size: 1.3rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        display: block;
+                        color: grey;
+                        font-family: "Mulish";
+                    }
+                }
+            }
+        }
+
+        .faqsmini3 {
+            padding: 4rem 0 7rem;
+
+            .box4 {
+                position: relative;
+
+                .h1 {
+                    position: absolute;
+                    top: 5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 65%;
+
+                    h1 {
+                        text-align: center;
+                        color: white;
+                        font-size: 1.3rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                    }
+                }
+
+                .textbox {
+                    top: 35%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    position: absolute;
+
+                    .input {
+                        position: absolute;
+                        left: 50%;
+                        width: 75%;
+                        transform: translateX(-50%);
+
+                        input {
+                            width: 100%;
+                            border-radius: 30px;
+                            padding-left: 25px;
+                            border: none;
+                            outline: none;
+                            margin-bottom: 7px;
+                            font-size: 13px;
+                        }
+
+                        textarea {
+                            border: none;
+                            outline: none;
+                            width: 100%;
+                            height: 40px;
+                            padding-left: 25px;
+                            border-radius: 5px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 14px;
+                            border-radius: 25px;
+                            padding: 3px 20px;
+                            background-color: #062c5e;
+                            transition: 0.5s;
+                            margin: 10px 0 0 76%;
+
+                            &:hover {
+                                background-color: #073A7D;
+                            }
+                        }
+
+                    }
+                }
+
+                .logo {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width:567px) and (max-width:808px) {
+    #faqs {
+        #header {
+            .parents {
+                .box1 {
+                    div {
+                        ul {
+                            li {
+                                &:nth-child(1) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+
+                                &:nth-child(5) {
+                                    a {
+                                        border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        overflow: hidden;
+
+        .minifaqs {
+            .box {
+                position: relative;
+
+                h1 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50px;
+                    transform: translateY(-50%);
+                    color: white;
+                    font-size: 2rem;
+                    font-family: "Mulish";
+                    font-weight: bold;
+                }
+
+
+                div {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.459);
+                    }
+                }
+            }
+
+        }
+
+        .box2 {
+            background-color: whitesmoke;
+            height: 60px;
+
+            div {
+                div {
+                    padding: 20px 0;
+                    margin: 0 35px 0;
+
+                    p {
+                        display: inline-block;
+                        padding: 0 10px;
+                        font-size: 10px;
+                    }
+
+                    .p {
+                        color: gray;
+                    }
+                }
+
+            }
+        }
+
+        .faqsmini2 {
+            .box3 {
+                margin: 0 30px;
+
+                #accordionExample {
+
+                    div {
+                        border: none;
+                        padding: 10px 0;
+                        transition: 1s;
+
+                        .accordion-button {
+                            font-weight: 600;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .text {
+
+                    h1 {
+                        font-size: 2rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        display: block;
+                        color: grey;
+                        font-family: "Mulish";
+                    }
+                }
+            }
+        }
+
+        .faqsmini3 {
+            padding: 4rem 0 7rem;
+
+            .box4 {
+                position: relative;
+
+                .h1 {
+                    position: absolute;
+                    top: 5px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+
+                    h1 {
+                        text-align: center;
+                        color: white;
+                        font-size: 2.5rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                    }
+                }
+
+                .textbox {
+                    top: 45%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    position: absolute;
+
+                    .input {
+                        position: absolute;
+                        left: 50%;
+                        width: 75%;
+                        transform: translateX(-50%);
+
+                        input {
+                            width: 100%;
+                            border-radius: 30px;
+                            padding-left: 25px;
+                            border: none;
+                            outline: none;
+                            margin-bottom: 7px;
+                        }
+
+                        textarea {
+                            border: none;
+                            outline: none;
+                            width: 100%;
+                            height: 70px;
+                            padding-left: 25px;
+                            border-radius: 5px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 15px;
+                            border-radius: 25px;
+                            padding: 3px 23px;
+                            background-color: #062c5e;
+                            transition: 0.5s;
+                            margin: 10px 0 0 86%;
+
+                            &:hover {
+                                background-color: #073A7D;
+                            }
+                        }
+
+                    }
+                }
+
+                .logo {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:808px) and (max-width:992px) {
+    #faqs {
+        #header {
+            .parents {
+                .box1 {
+                    div {
+                        ul {
+                            li {
+                                &:nth-child(1) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+
+                                &:nth-child(5) {
+                                    a {
+                                        border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        overflow: hidden;
+
+        .minifaqs {
+            .box {
+                position: relative;
+
+                h1 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50px;
+                    transform: translateY(-50%);
+                    color: white;
+                    font-size: 2rem;
+                    font-family: "Mulish";
+                    font-weight: bold;
+                }
+
+
+                div {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.459);
+                    }
+                }
+            }
+
+        }
+
+        .box2 {
+            background-color: whitesmoke;
+            height: 60px;
+
+            div {
+                div {
+                    padding: 20px 0;
+                    margin: 0 35px 0;
+
+                    p {
+                        display: inline-block;
+                        padding: 0 10px;
+                        font-size: 10px;
+                    }
+
+                    .p {
+                        color: gray;
+                    }
+                }
+
+            }
+        }
+
+        .faqsmini2 {
+            .box3 {
+                margin: 0 30px;
+
+                #accordionExample {
+
+                    div {
+                        border: none;
+                        padding: 10px 0;
+                        transition: 1s;
+
+                        .accordion-button {
+                            font-weight: 600;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .text {
+
+                    h1 {
+                        font-size: 2rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        display: block;
+                        color: grey;
+                        font-family: "Mulish";
+                    }
+                }
+            }
+        }
+
+        .faqsmini3 {
+            padding: 4rem 0 7rem;
+
+            .box4 {
+                position: relative;
+
+                .h1 {
+                    position: absolute;
+                    top: 10%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+
+                    h1 {
+                        text-align: center;
+                        color: white;
+                        font-size: 2.5rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                    }
+                }
+
+                .textbox {
+                    top: 45%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    position: absolute;
+
+                    .input {
+                        position: absolute;
+                        left: 50%;
+                        width: 75%;
+                        transform: translateX(-50%);
+
+                        input {
+                            width: 100%;
+                            border-radius: 30px;
+                            padding-left: 25px;
+                            border: none;
+                            outline: none;
+                            margin-bottom: 7px;
+                        }
+
+                        textarea {
+                            border: none;
+                            outline: none;
+                            width: 100%;
+                            height: 80px;
+                            padding-left: 25px;
+                            border-radius: 5px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 15px;
+                            border-radius: 25px;
+                            padding: 3px 23px;
+                            background-color: #062c5e;
+                            transition: 0.5s;
+                            margin: 10px 0 0 86%;
+
+                            &:hover {
+                                background-color: #073A7D;
+                            }
+                        }
+
+                    }
+                }
+
+                .logo {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(min-width:992px) {
+    #faqs {
+        #header {
+            .parents {
+                .box1 {
+                    div {
+                        ul {
+                            li {
+                                &:nth-child(1) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+
+                                &:nth-child(5) {
+                                    a {
+                                        border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        overflow: hidden;
+
+        .minifaqs {
+            .box {
+                position: relative;
+
+                h1 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50px;
+                    transform: translateY(-50%);
+                    color: white;
+                    font-size: 3.2rem;
+                    font-family: "Mulish";
+                    font-weight: bold;
+                }
+
+
+                div {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.459);
+                    }
+                }
+            }
+
+        }
+
+        .box2 {
+            background-color: whitesmoke;
+            height: 60px;
+
+            div {
+                div {
+                    padding: 20px 0;
+                    margin: 0 35px 0;
+
+                    p {
+                        display: inline-block;
+                        padding: 0 10px;
+                    }
+
+                    .p {
+                        color: gray;
+                    }
+                }
+
+            }
+        }
+
+        .faqsmini2 {
+            .box3 {
+                margin: 0 45px;
+
+                #accordionExample {
+                    div {
+                        border: none;
+                        padding: 15px 0;
+                        transition: 1s;
+
+                        .accordion-button {
+                            font-weight: 600;
+                            font-size: 17px;
+                        }
+                    }
+                }
+
+                .text {
+                    padding: 25px 0;
+
+                    h1 {
+                        font-size: 2.5rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin-top: 25px;
+                        color: grey;
+                        font-family: "Mulish";
+                    }
+                }
+            }
+        }
+
+        .faqsmini3 {
+            padding: 4rem 0 7rem;
+
+            .box4 {
+                position: relative;
+
+                .h1 {
+                    position: absolute;
+                    top: 9%;
+                    left: 20%;
+
+                    h1 {
+                        color: white;
+                        font-size: 2.5rem;
+                        font-family: "Mulish";
+                        font-weight: bold;
+                    }
+                }
+
+                .textbox {
+                    top: 28%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    position: absolute;
+
+                    .input {
+                        position: absolute;
+                        left: 50%;
+                        width: 43%;
+                        transform: translateX(-50%);
+
+                        input {
+                            width: 100%;
+                            border-radius: 30px;
+                            padding: 5px 25px;
+                            border: none;
+                            outline: none;
+                            margin-bottom: 15px;
+                        }
+
+                        textarea {
+                            border: none;
+                            outline: none;
+                            width: 100%;
+                            height: 150px;
+                            padding-left: 25px;
+                            border-radius: 5px;
+                        }
+
+                        a {
+                            display: inline-block;
+                            text-decoration: none;
+                            color: white;
+                            border-radius: 25px;
+                            padding: 6px 40px;
+                            background-color: #062c5e;
+                            transition: 0.5s;
+                            margin: 30px 0 0 80%;
+
+                            &:hover {
+                                background-color: #073A7D;
+                            }
+                        }
+
+                    }
+                }
+
+                .logo {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        height: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

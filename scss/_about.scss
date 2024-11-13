@@ -1,0 +1,1310 @@
+@media(min-width:0px) and (max-width:400px) {
+
+    #about {
+        height: 18vh;
+        background-color: black;
+        overflow-x: hidden;
+        img {
+            opacity: 0.7;
+            width: 100%;
+            height: 18vh;
+
+            background-size: cover;
+            position: absolute;
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            padding: 10% 0 0 7%;
+            // padding-top: 10%;
+            font-size: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    #company {
+        overflow-x: hidden;
+        padding-top: 10px;
+        height: 9vh;
+        background-color: #F6F6F6;
+
+        .left-box {
+            padding: 0 0 0 25px;
+
+            span {
+                font-size: 10px;
+            }
+
+            .left {
+                opacity: 0.8;
+
+            }
+        }
+
+        .right-box {
+
+
+            span {
+                opacity: 0.8;
+                font-size: 10px;
+            }
+        }
+    }
+
+    #who {
+        overflow-x: hidden;
+        height: 75vh;
+        // margin: 5% 0 0 3%;
+        margin: 0 0 0 3%;
+
+        img {
+            
+            background-size: cover;
+            width: 90%;
+            padding: 20px 0 0 40px;
+
+
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size: 20px;
+            margin-left: 1.5rem;
+        }
+
+        p {
+            opacity: 0.8;
+            // margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-size: 10px;
+        }
+    }
+
+    #way {
+        color: white;
+        overflow-x: hidden;
+        height: 45vh;
+
+        .blue-box {
+            background-color: #082E60;
+            // padding: 5% 0 0 5%;
+            margin-bottom: 10%;
+
+            p {
+                font-size: 10px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+
+        img {
+            display: none;
+        }
+
+    }
+
+    #different {
+        height: 80vh;
+        margin: 5% 0 0 3%;
+        overflow-x: hidden;
+        img {
+            background-size: cover;
+            width: 90%;
+            margin-top: 50px;
+
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size: 20px;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+            font-size:10px;
+        }
+    }
+
+    #advantages {
+        height: 75vh;
+        background-color: #F8F8F8;
+        padding: 40px 0 0 20px;
+        overflow-x: hidden;
+        img {
+            width: 100%;
+            background-size: cover;
+            padding: 20% 0 0 0;
+
+        }
+
+       h1{
+        font-size:20px;
+       }
+
+        p {
+            opacity: 0.8;
+            font-size:10px;
+        }
+         
+
+
+        .team {
+
+
+            p {
+                font-size: 10px;
+                font-weight: 700;
+                color: #082E60;
+            }
+
+            h6 {
+                font-size: 10px;
+                font-weight: 700;
+                color: #082E60;
+                margin-right: 50px;
+            }
+
+            .left {
+
+
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 27%;
+
+                }
+            }
+
+            .right {
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 27%;
+
+                }
+
+            }
+
+            i {
+                color: #082E60;
+                font-size: 1rem;
+                // margin-right: 15px;
+
+            }
+        }
+    }
+
+    #value {
+        height: 90vh;
+        padding-top: 7%;
+        margin-top: 7%;
+        border-top: 3px dashed;
+        overflow-x: hidden;
+        img {
+            width: 100%;
+            padding-left: 30px;
+        }
+
+        .write {
+            padding-top: 6%;
+
+            h1 {
+                padding: 10px 30px;
+                font-size:20px;
+            }
+
+            p {
+                padding: 10px 30px;
+                opacity: 0.8;
+                font-size:10px;
+            }
+        }
+    }
+
+}
+
+@media(min-width:400px) and (max-width:567px) {
+    #about {
+        height: 18vh;
+        background-color: black;
+       
+        img {
+            opacity: 0.7;
+            width: 100%;
+             height:18vh;
+
+            background-size: cover;
+            position: absolute;
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            padding: 10% 0 0 7%;
+            // padding-top: 10%;
+            font-size: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    #company {
+        padding-top: 10px;
+        height: 7vh;
+        background-color: #F6F6F6;
+
+        .left-box {
+            padding: 0 0 0 25px;
+
+            span {
+                font-size: 10px;
+            }
+
+            .left {
+                opacity: 0.8;
+
+            }
+        }
+
+        .right-box {
+
+
+            span {
+                opacity: 0.8;
+                font-size: 10px;
+            }
+        }
+    }
+
+    #who {
+        height: 100vh;
+        // margin: 5% 0 0 3%;
+        margin: 0 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+            padding: 20px 0 0 40px;
+
+
+
+        }
+
+        h1 {
+            margin:10% 0 0 10%;
+            font-size: 25px;
+
+        }
+
+        p {
+            margin:10% 0 0 10%;
+            opacity: 0.8;
+            margin-top: 1rem;
+            font-size: 15px;
+        }
+    }
+
+    #way {
+
+
+        color: white;
+
+        height: 70vh;
+
+        .blue-box {
+            background-color: #082E60;
+            // padding: 5% 0 0 5%;
+            margin-bottom: 10%;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            // margin-top: -5%;
+            display: none;
+        }
+
+    }
+
+    #different {
+        height: 120vh;
+        margin-left:8%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+            margin-top: 50px;
+
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size:25px;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+            font-size:15px;
+        }
+    }
+
+    #advantages {
+        height: 90vh;
+        background-color: #F8F8F8;
+        padding-left:5%;
+
+        img {
+            width: 90%;
+            height:90%;
+            background-size: cover;
+            padding:5% 0 0 5%;
+            
+
+        }
+
+        h1{
+            font-size: 25px;
+            margin-top:5%;
+        }
+
+        p {
+            opacity: 0.8;
+            font-size:15px;
+
+        }
+
+
+
+        .team {
+
+
+            p {
+                font-size: 10px;
+                font-weight: 700;
+                color: #082E60;
+            }
+
+            h6 {
+                font-size: 10px;
+                font-weight: 700;
+                color: #082E60;
+                margin-right: 50px;
+            }
+
+            .left {
+
+
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 27%;
+
+                }
+            }
+
+            .right {
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 27%;
+
+                }
+
+            }
+
+            i {
+                color: #082E60;
+                font-size: 1rem;
+                // margin-right: 15px;
+
+            }
+        }
+    }
+
+    #value {
+        height: 120vh;
+        padding-top: 7%;
+        margin-top: 7%;
+        border-top: 3px dashed;
+
+        img {
+            width: 100%;
+            padding-left: 30px;
+        }
+
+        .write {
+            padding-top: 6%;
+
+            h1 {
+                padding: 10px 50px;
+                font-size:25px;
+            }
+
+            p {
+                padding: 10px 50px;
+                opacity: 0.8;
+                font-size:15px;
+            }
+        }
+    }
+
+}
+
+@media(min-width:567px) and (max-width:768px) {
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                a {
+                                    border-bottom: 2px solid #2034B4;
+                                }
+                            }
+                            
+                            &:nth-child(3) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(4) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(5) {
+                                a {
+                                    border: none;
+                                }
+                            }
+
+                            &:nth-child(6) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        height: 40vh;
+        background-color: black;
+        
+        img {
+            opacity: 0.7;
+            width: 100%;
+            height: 40vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            // padding: 10% 0 0 4%;
+            padding-top: 20%;
+            font-size: 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    #company {
+        padding-top: 10px;
+        height: 10vh;
+        background-color: #F6F6F6;
+
+        .left-box {
+            padding: 20px 0 0 25px;
+
+
+            .left {
+                opacity: 0.8;
+
+            }
+        }
+
+        .right-box {
+            padding-left: 80px;
+
+
+            span {
+                opacity: 0.8;
+                font-size: 10px;
+            }
+        }
+    }
+
+    #who {
+        height: 50vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 100%;
+
+
+        }
+
+        h1 {
+            
+            font-size:20px;
+        }
+
+        p {
+            opacity: 0.8;
+            
+            font-size:10px;
+        }
+    }
+
+    #way {
+
+
+        color: white;
+
+        height: 70vh;
+
+        .blue-box {
+            background-color: #082E60;
+            padding: 5% 0 0 5%;
+            padding-right: -5%;
+           p{
+            font-size:15px;
+           }
+            h1{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        img {
+            display:none;
+
+        }
+        h2{
+            font-size:30px;
+            font-weight:700;
+        }
+
+    }
+
+    #different {
+        height: 50vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 100%;
+
+
+        }
+
+        h1 {
+           
+            font-size:20px;
+        }
+
+        p {
+            opacity: 0.8;
+            
+            font-size:10px;
+        }
+    }
+
+    #advantages {
+        height: 60vh;
+        background-color: #F8F8F8;
+        padding: 50px 0 0 40px;
+
+        img {
+            width: 100%;
+            background-size: cover;
+
+        }
+
+         h6{
+            font-size: 10px;
+            color: #082E60;
+         }
+
+        p {
+            opacity: 0.8;
+           font-size:12px;
+        }
+
+        h1 {
+           font-size:25px;
+        }
+
+        .team {
+            // margin: 70px 70px 0 0;
+
+            p {
+                font-size: 20px;
+                font-weight: 700;
+                color: #082E60;
+            }
+
+            .left {
+
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 15%;
+
+                }
+                
+            }
+
+            .right {
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 15%;
+
+                }
+
+            }
+
+            i {
+                color: #082E60;
+                font-size: 20px;
+                // margin-right: 15px;
+
+            }
+        }
+    }
+
+    #value {
+        height: 50vh;
+        padding-top: 7%;
+        margin-top: 7%;
+        border-top: 3px dashed;
+
+        img {
+            width: 100%;
+            padding-left: 50px;
+        }
+
+        .write {
+            // padding-top: 6%;
+
+            h1 {
+                // padding: 10px 50px;
+                font-size:20px
+            }
+
+            p {
+                // padding: 10px 50px;
+                opacity: 0.8;
+                font-size:10px;
+            }
+        }
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                a {
+                                    border-bottom: 2px solid #2034B4;
+                                }
+                            }
+                            
+                            &:nth-child(3) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(4) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(5) {
+                                a {
+                                    border: none;
+                                }
+                            }
+
+                            &:nth-child(6) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        height: 40vh;
+        background-color: black;
+       
+        .boxes {
+            img {
+                opacity: 0.7;
+                width: 100%;
+                height: 40vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                object-fit: cover;
+            }
+
+            h1 {
+                color: white;
+                position: relative;
+                padding: 10% 0 0 4%;
+                font-size: 50px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        }
+
+    }
+
+    #company {
+        padding-top: 20px;
+        height: 15vh;
+        background-color: #F6F6F6;
+
+        .left-box {
+            padding-left: 25px;
+
+            .left {
+                opacity: 0.8;
+            }
+        }
+
+        .right-box {
+            padding-left: 80px;
+
+
+            span {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    #who {
+        height: 50vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+
+
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+            font-size: 11px;
+        }
+    }
+
+    #way {
+
+
+        color: white;
+
+        height: 60vh;
+
+        .blue-box {
+            background-color: #082E60;
+            padding: 5% 0 0 5%;
+            padding-right: -5%;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+            }
+        }
+
+        img {
+            // width: 100%;
+            // height: 50%;
+            // margin-top: -5%;
+            // right: 0;
+            // width: 720px !important;
+            display: none;
+        }
+
+    }
+
+    #different {
+        height: 50vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+
+
+        }
+
+        h1 {
+            font-size: 20px;
+
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+            font-size: 12px;
+        }
+    }
+
+    #advantages {
+        height: 60vh;
+        background-color: #F8F8F8;
+        padding: 50px 0 0 70px;
+
+        img {
+            width: 100%;
+            background-size: cover;
+
+        }
+
+
+
+        p {
+            opacity: 0.8;
+            margin-right: 70px;
+            font-size: 10px;
+        }
+
+        h1 {
+            margin: 30px 0 30px 0;
+            font-size: 20px;
+        }
+
+        .team {
+            margin-top: 10px;
+
+            h6 {
+                font-size: 10px;
+                font-weight: 500;
+                color: #082E60;
+            }
+
+            .left {
+
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 13%;
+
+                }
+            }
+
+            .right {
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 30px;
+                    background-color: #082E60;
+                    margin-left: 13%;
+
+                }
+
+            }
+
+            i {
+                color: #082E60;
+                font-size: 15px;
+                // margin: 10% 0 0 60%;
+
+            }
+        }
+    }
+
+    #value {
+        height: 40vh;
+        padding-top: 7%;
+        margin-top: 7%;
+        border-top: 3px dashed;
+
+        img {
+            width: 100%;
+            padding-left: 50px;
+        }
+
+        .write {
+            // padding-top: 6%;
+
+            h1 {
+                padding: 10px 50px;
+                font-size: 20px;
+            }
+
+            p {
+                padding: 10px 50px;
+                opacity: 0.8;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media(min-width:992px) {
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                a {
+                                    border-bottom: 2px solid #2034B4;
+                                }
+                            }
+                            
+                            &:nth-child(3) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(4) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(5) {
+                                a {
+                                    border: none;
+                                }
+                            }
+
+                            &:nth-child(6) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about {
+        height: 40vh;
+        background-color: black;
+        
+        .boxes {
+            img {
+                opacity: 0.7;
+                width: 100%;
+                height: 40vh;
+
+                background-size: cover;
+                position: absolute;
+                object-fit: cover;
+            }
+
+            h1 {
+                color: white;
+                position: relative;
+                padding: 10% 0 0 4%;
+                font-size: 50px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        }
+
+    }
+
+    #company {
+        padding-top: 20px;
+        height: 10vh;
+        background-color: #F6F6F6;
+
+        .left-box {
+            padding-left: 25px;
+
+            .left {
+                opacity: 0.8;
+            }
+        }
+
+        .right-box {
+            padding-left: 80px;
+
+
+            span {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    #who {
+        height: 70vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+
+
+        }
+
+        h1 {
+            margin-top: 15%;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+    }
+
+    #way {
+
+
+        color: white;
+
+        height: 70vh;
+
+        .blue-box {
+            background-color: #082E60;
+            padding: 5% 15% 0 5%;
+
+
+            h2 {
+                font-size: 40px;
+                font-weight: 500;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin-top: -5%;
+            right: 0;
+            width: 720px !important;
+        }
+
+    }
+
+    #different {
+        height: 70vh;
+        margin: 5% 0 0 3%;
+
+        img {
+            background-size: cover;
+            width: 90%;
+
+
+        }
+
+        h1 {
+            margin-top: 15%;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-top: 1rem;
+        }
+    }
+
+    #advantages {
+        height: 76vh;
+        background-color: #F8F8F8;
+        padding: 50px 0 0 70px;
+
+        img {
+            width: 100%;
+            background-size: cover;
+
+        }
+
+
+
+        p {
+            opacity: 0.8;
+            margin-right: 70px;
+        }
+
+        h1 {
+            margin: 30px 0 30px 0;
+        }
+
+        .team {
+            margin: 70px 70px 0 0;
+
+            h6 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #082E60;
+            }
+
+            .left {
+
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 50px;
+                    background-color: #082E60;
+                    margin-left: 13%;
+
+                }
+            }
+
+            .right {
+                &::before {
+
+
+                    content: "";
+
+                    position: absolute;
+                    width: 2px;
+                    height: 50px;
+                    background-color: #082E60;
+                    margin-left: 13%;
+
+                }
+
+            }
+
+            i {
+                color: #082E60;
+                font-size: 20px;
+                margin: 10% 0 0 60%;
+
+            }
+        }
+    }
+
+    #value {
+        height: 90vh;
+        padding-top: 7%;
+        margin-top: 7%;
+        border-top: 3px dashed;
+
+        img {
+            width: 100%;
+            padding-left: 50px;
+        }
+
+        .write {
+            padding-top: 6%;
+
+            h1 {
+                padding: 10px 50px;
+            }
+
+            p {
+                padding: 10px 50px;
+                opacity: 0.8;
+            }
+        }
+    }
+}

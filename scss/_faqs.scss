@@ -21,6 +21,7 @@
                 div {
                     position: relative;
 
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -30,6 +31,7 @@
                         height: 100%;
                         background-color: rgba(0, 0, 0, 0.459);
                     }
+
                 }
             }
 
@@ -102,15 +104,15 @@
 
                 .h1 {
                     position: absolute;
-                    top: 5px;
+                    top: 20px;
                     left: 50%;
                     transform: translateX(-50%);
-                    width: 65%;
+                    width: 90%;
 
                     h1 {
                         text-align: center;
                         color: white;
-                        font-size: 1.3rem;
+                        font-size: 2rem;
                         font-family: "Mulish";
                         font-weight: bold;
                     }
@@ -136,14 +138,15 @@
                             border: none;
                             outline: none;
                             margin-bottom: 7px;
-                            font-size: 13px;
+                            font-size: 14px;
                         }
 
                         textarea {
+                            font-size: 14px;
                             border: none;
                             outline: none;
                             width: 100%;
-                            height: 40px;
+                            height: 90px;
                             padding-left: 25px;
                             border-radius: 5px;
                         }
@@ -157,7 +160,7 @@
                             padding: 3px 20px;
                             background-color: #062c5e;
                             transition: 0.5s;
-                            margin: 10px 0 0 76%;
+                            margin: 10px 0 0 78%;
 
                             &:hover {
                                 background-color: #073A7D;
@@ -170,6 +173,12 @@
                 .logo {
                     position: relative;
 
+                    img {
+                        width: 100%;
+                        height: 45vh;
+                        object-fit: cover;
+                    }
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -177,7 +186,7 @@
                         height: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: #181f49a4;
                     }
                 }
             }
@@ -199,10 +208,34 @@
                                         border: none;
                                     }
                                 }
-
+                                
+                                &:nth-child(2) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(3) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(4) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
                                 &:nth-child(5) {
                                     a {
                                         border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+
+                                &:nth-child(6) {
+                                    a {
+                                        border: none;
                                     }
                                 }
                             }
@@ -314,7 +347,7 @@
 
                 .h1 {
                     position: absolute;
-                    top: 5px;
+                    top: 17px;
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
@@ -348,9 +381,11 @@
                             border: none;
                             outline: none;
                             margin-bottom: 7px;
+                            font-size: 14px;
                         }
 
                         textarea {
+                            font-size: 14px;
                             border: none;
                             outline: none;
                             width: 100%;
@@ -381,6 +416,12 @@
                 .logo {
                     position: relative;
 
+                    img {
+                        height: 70vh;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -388,7 +429,7 @@
                         height: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: #181f49a4;
                     }
                 }
             }
@@ -409,10 +450,34 @@
                                         border: none;
                                     }
                                 }
-
+                                
+                                &:nth-child(2) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(3) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(4) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
                                 &:nth-child(5) {
                                     a {
                                         border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+
+                                &:nth-child(6) {
+                                    a {
+                                        border: none;
                                     }
                                 }
                             }
@@ -524,7 +589,7 @@
 
                 .h1 {
                     position: absolute;
-                    top: 10%;
+                    top: 15%;
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
@@ -548,11 +613,12 @@
                     .input {
                         position: absolute;
                         left: 50%;
-                        width: 75%;
+                        width: 65%;
                         transform: translateX(-50%);
 
                         input {
                             width: 100%;
+                            font-size: 14px;
                             border-radius: 30px;
                             padding-left: 25px;
                             border: none;
@@ -561,6 +627,7 @@
                         }
 
                         textarea {
+                            font-size: 14px;
                             border: none;
                             outline: none;
                             width: 100%;
@@ -591,6 +658,12 @@
                 .logo {
                     position: relative;
 
+                    img {
+                        height: 80vh;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -598,7 +671,7 @@
                         height: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: #181f49a4;
                     }
                 }
             }
@@ -621,10 +694,34 @@
                                         border: none;
                                     }
                                 }
-
+                                
+                                &:nth-child(2) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(3) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
+                                &:nth-child(4) {
+                                    a {
+                                        border: none;
+                                    }
+                                }
+                                
                                 &:nth-child(5) {
                                     a {
                                         border-bottom: 2px solid #2034B4;
+                                    }
+                                }
+
+                                &:nth-child(6) {
+                                    a {
+                                        border: none;
                                     }
                                 }
                             }
@@ -797,6 +894,11 @@
                 .logo {
                     position: relative;
 
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -804,7 +906,7 @@
                         height: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba(0, 0, 0, 0.5);
+                        background-color: #181f49a4;
                     }
                 }
             }

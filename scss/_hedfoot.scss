@@ -1,30 +1,32 @@
 @media(min-width:0px) and (max-width:567px) {
     #header {
         height: 100%;
-      
+
         .parents {
             display: none;
         }
 
         .tel {
-            
-            position:fixed;
-            width: 100%;
+            position: fixed;
             z-index: 999;
+            width: 100%;
             background-color: rgba(255, 255, 255, 0);
             transition: background-color 0.5s;
+
             div {
-            .logoo {
+                .logoo {
                     transition: background-color 0.5s;
+
                     .navico {
                         i {
-                            font-size: 15px;
+                            margin-top: 13px;
+                            font-size: 1rem;
                             color: white;
                         }
                     }
 
                     .logo1 {
-                        width: 120px;
+                        width: 130px;
 
                     }
                 }
@@ -459,106 +461,36 @@
         }
 
         hr {
-            position: relative;
-            margin: 0;
-            padding: 0;
-            top: -25px;
+            display: none;
         }
 
         .parents {
+            position: relative;
+            top: -60px;
             margin: auto;
             width: 95%;
 
             .boxes {
+                display: none;
+
                 .boxes1 {
-                    ul {
-                        position: relative;
-                        bottom: -10px;
-
-                        li {
-
-                            p {
-                                font-size: 12px;
-                                font-weight: 500;
-                                color: #2034B4;
-                                display: inline-block;
-                                padding: 20px 6px;
-                                text-decoration: none;
-                            }
-                        }
+                    display: none;
+                    ul{
+                        display: none;
                     }
                 }
 
                 .boxes2 {
-                    a {
-                        font-size: 13px;
-                        color: #152170;
-                        display: inline-block;
-                        padding: 20px 5px;
-                        text-decoration: none;
+                    display: none;
+                    .boxes2 li {
+                        list-style-type: none; /* .boxes2 içindeki li'lerin marker'ını kaldırır */
                     }
-
-                    ul {
-                        padding: 0 10px;
-                        z-index: 1;
-
-                        li {
-                            position: relative;
-
-                            a {
-                                display: block;
-                                padding: 20px 0;
-
-                                i {
-                                    margin-left: 5px;
-                                }
-                            }
-
-                            &:hover {
-                                ul {
-                                    opacity: 1;
-                                    visibility: visible;
-                                    transform: translateY(45px);
-                                }
-                            }
-
-                            ul {
-                                display: block;
-                                position: absolute;
-                                opacity: 0;
-                                left: -35%;
-                                transition: 0.5s;
-                                top: 0%;
-                                visibility: hidden;
-                                width: 55px;
-                                border-radius: 5px;
-                                background-color: white;
-                                -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-                                -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-                                box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-                                transform: translateY(0);
-
-                                li {
-                                    list-style: none;
-                                    text-align: center;
-
-                                    a {
-                                        text-decoration: none;
-                                        color: blue;
-                                        padding: 2px 0;
-                                        margin: 0;
-                                        transition: 0.3s;
-
-                                        &:hover {
-                                            color: orange;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                    a{
+                        display: none;
+                       
                     }
-
                 }
+
             }
 
             .box1 {
@@ -566,22 +498,18 @@
                 bottom: 15px;
 
                 .logo {
-                    width: 130px;
+                    width: 150px;
                 }
 
                 div {
                     ul {
                         li {
-                            padding: 0 8px;
+                            padding: 0 10px;
 
-                            &:nth-child(1) {
-                                a {
-                                    border-bottom: 2px solid #2034B4;
-                                }
-                            }
+                           
 
                             a {
-                                padding: 0 5px;
+                                padding: 0 7px;
                                 font-size: 13px;
                                 font-weight: 600;
                                 display: inline-block;
@@ -891,11 +819,6 @@
                         li {
                             padding: 0 25px;
 
-                            &:nth-child(1) {
-                                a {
-                                    border-bottom: 2px solid #2034B4;
-                                }
-                            }
 
                             a {
                                 padding: 0 6px;

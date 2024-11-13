@@ -1,0 +1,263 @@
+
+#header {
+    .parents {
+        .box1 {
+            div {
+                ul {
+                    li {
+                        &:nth-child(1) {
+                            a {
+                                border: none;
+                            }
+                        }
+                        
+                        &:nth-child(2) {
+                            a {
+                                border: none;
+                            }
+                        }
+                        
+                        &:nth-child(3) {
+                            a {
+                                border: none;
+                            }
+                        }
+                        
+                        &:nth-child(4) {
+                            a {
+                                border-bottom: 2px solid #2034B4;
+                            }
+                        }
+                        
+                        &:nth-child(5) {
+                            a {
+                                border: none;
+                            }
+                        }
+
+                        &:nth-child(6) {
+                            a {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#projects {
+
+    height: auto;
+    transform: scale(1);
+    padding-top: 10%;
+
+    .text-box {
+        text-align: center;
+    }
+
+    img {
+        width: 95%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        margin: 40px 7px 0 15px;
+        transform: scale(1);
+        object-fit: cover;
+        &:hover{
+            transform: scale(1.1);
+            transition:1s;
+        }
+    }
+}
+@media(min-width:0px) and (max-width:567px){
+    #projects {
+        height: auto;
+        transform: scale(1);
+        
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        .text-box {
+            text-align: center;
+        }
+    
+        img {
+            width: 95%;
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+            margin: 40px 7px 0 15px;
+            transform: scale(1);
+            &:hover{
+                transform: scale(1.1);
+                transition:1s;
+            }
+        }
+    }  
+}
+@media(min-width:567px) and (max-width:992px){
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(3) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(4) {
+                                a {
+                                    border-bottom: 2px solid #2034B4;
+                                }
+                            }
+                            
+                            &:nth-child(5) {
+                                a {
+                                    border: none;
+                                }
+                            }
+    
+                            &:nth-child(6) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #projects {
+        height: auto;
+        transform: scale(1);
+        
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+        h5{
+            font-size: 20px;
+        }
+        .text-box {
+            text-align: center;
+        }
+    
+        img {
+            width: 95%;
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+            margin: 40px 7px 0 15px;
+            transform: scale(1);
+            &:hover{
+                transform: scale(1.1);
+                transition:1s;
+            }
+        }
+    }  
+}
+@media(min-width:992px){
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            &:nth-child(1) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(3) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                            
+                            &:nth-child(4) {
+                                a {
+                                    border-bottom: 2px solid #2034B4;
+                                }
+                            }
+                            
+                            &:nth-child(5) {
+                                a {
+                                    border: none;
+                                }
+                            }
+    
+                            &:nth-child(6) {
+                                a {
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #projects {
+        height: auto;
+        transform: scale(1);
+       
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+        h5{
+            font-size: 25px;
+        }
+        .text-box {
+            text-align: center;
+        }
+    
+        img {
+            width: 95%;
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+            margin: 40px 7px 0 15px;
+            transform: scale(1);
+            &:hover{
+                transform: scale(1.1);
+                transition:1s;
+            }
+        }
+    }  
+}

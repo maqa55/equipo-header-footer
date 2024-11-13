@@ -43,3 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector('#header');
     header.classList.remove('scrolled');
 });
+document.querySelector('.textbox a').addEventListener('click', function(event) {
+    event.preventDefault(); // Varsayılan davranışı engelle
+    const box = document.querySelector('.box4');
+    box.classList.toggle('active'); // Active sınıfını aç/kapa
+});

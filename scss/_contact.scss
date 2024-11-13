@@ -213,54 +213,23 @@
 }
 
 @media(min-width:567px) and (max-width:992px) {
-    #contact {
-        #header {
-            .parents {
-                .box1 {
-                    div {
-                        ul {
-                            li {
-                                &:nth-child(1) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(2) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(3) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(4) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(5) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-
-                                &:nth-child(6) {
-                                    a {
-                                        border-bottom: 2px solid #2034B4;
-                                    }
-                                }
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            .a1 {
+                                border-bottom: 2px solid #2034B4;
                             }
+    
                         }
                     }
                 }
             }
         }
+    }
+    #contact {
 
         .minicontact {
             .box {
@@ -438,54 +407,23 @@
 }
 
 @media(min-width:992px) {
-    #contact {
-        #header {
-            .parents {
-                .box1 {
-                    div {
-                        ul {
-                            li {
-                                &:nth-child(1) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(2) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(3) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(4) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-                                
-                                &:nth-child(5) {
-                                    a {
-                                        border: none;
-                                    }
-                                }
-
-                                &:nth-child(6) {
-                                    a {
-                                        border-bottom: 2px solid #2034B4;
-                                    }
-                                }
+    #header {
+        .parents {
+            .box1 {
+                div {
+                    ul {
+                        li {
+                            .a1 {
+                                border-bottom: 2px solid #2034B4;
                             }
+    
                         }
                     }
                 }
             }
         }
+    }
+    #contact {
 
         .minicontact {
             .box {

@@ -4,41 +4,10 @@
             div {
                 ul {
                     li {
-                        &:nth-child(1) {
-                            a {
-                                border-bottom: 2px solid #2034B4;
-                            }
+                        .a1 {
+                            border-bottom: 2px solid #2034B4;
                         }
 
-                        &:nth-child(2) {
-                            a {
-                                border: none;
-                            }
-                        }
-
-                        &:nth-child(3) {
-                            a {
-                                border: none;
-                            }
-                        }
-
-                        &:nth-child(4) {
-                            a {
-                                border: none;
-                            }
-                        }
-
-                        &:nth-child(5) {
-                            a {
-                                border: none;
-                            }
-                        }
-
-                        &:nth-child(6) {
-                            a {
-                                border: none;
-                            }
-                        }
                     }
                 }
             }
@@ -553,41 +522,10 @@
                 div {
                     ul {
                         li {
-                            &:nth-child(1) {
-                                a {
-                                    border-bottom: 2px solid #2034B4;
-                                }
+                            .a1 {
+                                border-bottom: 2px solid #2034B4;
                             }
-
-                            &:nth-child(2) {
-                                a {
-                                    border: none;
-                                }
-                            }
-
-                            &:nth-child(3) {
-                                a {
-                                    border: none;
-                                }
-                            }
-
-                            &:nth-child(4) {
-                                a {
-                                    border: none;
-                                }
-                            }
-
-                            &:nth-child(5) {
-                                a {
-                                    border: none;
-                                }
-                            }
-
-                            &:nth-child(6) {
-                                a {
-                                    border: none;
-                                }
-                            }
+    
                         }
                     }
                 }

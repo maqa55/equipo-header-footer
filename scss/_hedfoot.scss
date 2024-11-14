@@ -1,8 +1,7 @@
 @media(min-width:0px) and (max-width:567px) {
     #header {
         height: 100%;
-
-        .parents {
+         .parents {
             display: none;
         }
 
@@ -12,11 +11,10 @@
             width: 100%;
             background-color: rgba(255, 255, 255, 0);
             transition: background-color 0.5s;
-
             div {
+
                 .logoo {
                     transition: background-color 0.5s;
-
                     .navico {
                         i {
                             margin-top: 13px;
@@ -35,7 +33,7 @@
                 .ul {
                     width: 104%;
                     position: absolute;
-                    top: 100%;
+                    top: 95%;
                     left: -4%;
                     opacity: 0;
                     transition: 0.5s;
@@ -226,7 +224,6 @@
 @media(min-width:567px) and (max-width:576px) {
     #header {
         height: 100%;
-
         .parents {
             display: none;
         }

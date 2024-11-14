@@ -27,7 +27,7 @@
   #header .tel div .ul {
     width: 104%;
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: -4%;
     opacity: 0;
     transition: 0.5s;

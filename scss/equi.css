@@ -172,6 +172,8 @@
   }
   #header .tel div .logoo .navico i {
     font-size: 20px;
+    margin-top: 13px;
+    margin-right: 20px;
   }
   #header .tel div .logoo .logo1 {
     width: 150px;
@@ -313,7 +315,6 @@
     z-index: 999;
     background-color: rgba(255, 255, 255, 0);
     transition: background-color 0.5s;
-    height: 25vh;
   }
   #header.scrolled {
     background-color: rgba(255, 255, 255, 0.945);
@@ -326,7 +327,6 @@
   }
   #header .parents {
     position: relative;
-    top: -60px;
     margin: auto;
     width: 95%;
   }
@@ -342,8 +342,8 @@
   #header .parents .boxes .boxes2 {
     display: none;
   }
-  #header .parents .boxes .boxes2 .boxes2 li {
-    list-style-type: none;
+  #header .parents .boxes .boxes2 ul {
+    display: none;
   }
   #header .parents .boxes .boxes2 a {
     display: none;
@@ -2622,7 +2622,7 @@
     font-size: 10px;
   }
   #who {
-    height: 100vh;
+    height: 65vh;
     margin: 0 0 0 3%;
   }
   #who img {
@@ -2642,7 +2642,7 @@
   }
   #way {
     color: white;
-    height: 70vh;
+    height: 50vh;
   }
   #way .blue-box {
     background-color: #082E60;
@@ -2658,7 +2658,7 @@
     display: none;
   }
   #different {
-    height: 120vh;
+    height: 70vh;
     margin-left: 8%;
   }
   #different img {
@@ -2676,7 +2676,7 @@
     font-size: 15px;
   }
   #advantages {
-    height: 90vh;
+    height: 50vh;
     background-color: #F8F8F8;
     padding-left: 5%;
   }
@@ -2726,7 +2726,7 @@
     font-size: 1rem;
   }
   #value {
-    height: 120vh;
+    height: 70vh;
     padding-top: 7%;
     margin-top: 7%;
     border-top: 3px dashed;
@@ -2948,7 +2948,7 @@
     opacity: 0.8;
   }
   #who {
-    height: 50vh;
+    height: 30vh;
     margin: 5% 0 0 3%;
   }
   #who img {
@@ -2965,7 +2965,7 @@
   }
   #way {
     color: white;
-    height: 60vh;
+    height: 50vh;
   }
   #way .blue-box {
     background-color: #082E60;
@@ -2980,7 +2980,7 @@
     display: none;
   }
   #different {
-    height: 50vh;
+    height: 30vh;
     margin: 5% 0 0 3%;
   }
   #different img {
@@ -2996,7 +2996,7 @@
     font-size: 12px;
   }
   #advantages {
-    height: 60vh;
+    height: 40vh;
     background-color: #F8F8F8;
     padding: 50px 0 0 70px;
   }

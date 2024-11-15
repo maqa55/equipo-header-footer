@@ -54,7 +54,6 @@
 
     #who {
         overflow-x: hidden;
-        height: 75vh;
         // margin: 5% 0 0 3%;
         margin: 0 0 0 3%;
 
@@ -85,7 +84,6 @@
     #way {
         color: white;
         overflow-x: hidden;
-        height: 45vh;
 
         .blue-box {
             background-color: #082E60;
@@ -113,8 +111,7 @@
     }
 
     #different {
-        height: 80vh;
-        margin: 5% 0 0 3%;
+        margin:0 0 0 3%;
         overflow-x: hidden;
         img {
             background-size: cover;
@@ -137,9 +134,8 @@
     }
 
     #advantages {
-        height: 75vh;
         background-color: #F8F8F8;
-        padding: 40px 0 0 20px;
+        padding: 0px 0 0 20px;
         overflow-x: hidden;
         img {
             width: 100%;
@@ -218,9 +214,6 @@
     }
 
     #value {
-        height: 90vh;
-        padding-top: 7%;
-        margin-top: 7%;
         border-top: 3px dashed;
         overflow-x: hidden;
         img {
@@ -229,7 +222,6 @@
         }
 
         .write {
-            padding-top: 6%;
 
             h1 {
                 padding: 10px 30px;
@@ -299,7 +291,7 @@
     }
 
     #who {
-        height: 65vh;
+        height: 70vh;
         // margin: 5% 0 0 3%;
         margin: 0 0 0 3%;
 
@@ -463,7 +455,7 @@
     }
 
     #value {
-        height:70vh;
+        height: 70vh;
         padding-top: 7%;
         margin-top: 7%;
         border-top: 3px dashed;
@@ -757,6 +749,7 @@
             }
         }
     }
+   
     #about {
         height: 40vh;
         background-color: black;
@@ -807,7 +800,7 @@
     }
 
     #who {
-        height: 30vh;
+        height: 50vh;
         margin: 5% 0 0 3%;
 
         img {
@@ -833,7 +826,7 @@
 
         color: white;
 
-        height: 50vh;
+        height: 60vh;
 
         .blue-box {
             background-color: #082E60;
@@ -858,7 +851,7 @@
     }
 
     #different {
-        height: 30vh;
+        height: 50vh;
         margin: 5% 0 0 3%;
 
         img {
@@ -881,7 +874,7 @@
     }
 
     #advantages {
-        height: 40vh;
+        height: 60vh;
         background-color: #F8F8F8;
         padding: 50px 0 0 70px;
 
@@ -999,6 +992,7 @@
             }
         }
     }
+   
     #about {
         height: 40vh;
         background-color: black;

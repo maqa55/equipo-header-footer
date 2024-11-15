@@ -576,6 +576,31 @@
     }
 
     #fourth {
+        .blue {
+            background-color: #082E60;
+            height: 30vh;
+            margin-top: -20px;
+
+          
+
+            .box {
+
+                h2 {
+                    padding-left: 23px;
+                    font-size: 20px;
+                    font-weight: 700;
+
+                }
+
+                p {
+                    padding-left: 23px;
+                    font-size: clamp(16px, 2.5vw, 20px);
+                    font-weight: 400;
+                    padding-bottom: 70px;
+                }
+            }
+        }
+
         .img-box {
             img {
                 display: none;
